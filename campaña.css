@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.principal{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+.titulo-principal{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    color: #f1bb3d;
+}
+.parrafo-principal{
+    padding: 30px;
+    font-size: 20px;
+}
+.campaña{
+    text-align: center;
+}
+.campaña h1{
+    padding: 30px;
+    font-size: 40px;
+    color: #543b00;
+    text-align: left;
+}
+.card-contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.card-campaña{
+    background-color: #ffffff88;
+    border-radius: 5px;
+    padding: 30px;
+    width: 350px;
+    text-align: justify;
+    box-shadow: 4px 0px 7px 0px rgba(0, 0, 0, 0.373);
+}
+.card-campaña h2{
+    padding-bottom: 20px;
+    color: #cf9100;
+    text-align: center;
+    word-spacing: 3px;
+}

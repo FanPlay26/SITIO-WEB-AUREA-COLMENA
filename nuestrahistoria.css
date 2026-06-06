@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    padding: 50px;
+    font-size: 50px;
+    color: #543b00;
+}
+.parrafo{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.box{
+    display: flex;
+    align-items: center; 
+    padding-bottom: 40px;
+}
+.box-parrafo{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 50%; 
+    padding-right: 100px;
+    font-size: 20px;
+    border-right: 5px solid #cf9100;
+}
+.img-box{
+    width: 50%;
+    max-width: 700px;
+    padding-left: 100px;
+}
+.box-parrafo-2{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 50%; 
+    padding-left: 100px;
+    font-size: 20px;
+    border-left: 5px solid #cf9100;
+}
+
+.valores{
+    text-align: center;
+}
+.valores h1{
+    padding: 30px;
+    font-size: 50px;
+    color: #543b00;
+}
+.card-contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.card-valores{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    width: 350px;
+    text-align: justify;
+    box-shadow: 4px 0px 7px 0px rgba(0, 0, 0, 0.373);
+    border-top: 4px solid #cf9100;
+}
+.card-valores h2{
+    padding-bottom: 20px;
+    color: #cf9100;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+
+    .box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-parrafo,
+    .box-parrafo-2{
+        width: 80%;
+        padding: 20px;
+    }
+
+    .img-box{
+        width: 80%;
+        max-width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .card-contenedor{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card-valores{
+        width: 80%;
+    }
+
+    .titulo,
+    .valores h1{
+        font-size: 35px;
+        text-align: center;
+    }
+}
